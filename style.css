@@ -1,0 +1,59 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+.options{
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+
+    
+}
+
+.options li{
+    border: 1px solid black;
+    margin-right: 30px;
+    font-size: 18px;
+    background-color: gray;
+    
+    
+}
+.options .normal  {
+    background-color: black;
+    color:white;
+}
+.bar-container{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+   
+}
+
+ .slider{
+
+    width: 25%;
+    height: 8px;
+    opacity: 0.7;
+    background:#d3d3d3;
+    transition: opacity .2S;
+    
+    -webkit-transition: .2s;
+    outline: none;
+    
+    -webkit-appearance: none;
+ }
+
+ .slider , p{
+
+ 
+    margin: 45px;
+ }
+
+   
+    
+    
+
+
+
